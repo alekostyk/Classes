@@ -1,0 +1,64 @@
+class Triangle {
+  constructor(a,b,c,height) {
+    this.a = a;
+    this.b = b;
+    this.c = c;
+    this.height = height;
+  }
+  
+  field() {
+    return this.a * this.height / 2;
+  }
+  
+  circuit() {
+    return this.a + this.b + this.c;
+  }
+}
+const triangle = new Triangle(3,6,2.5,7);
+console.log(triangle.field());
+console.log(triangle.circuit());
+
+
+
+
+class Square {
+  constructor(a) {
+    this.a = a;
+  }
+  
+  field() {
+    return this.a * this.a;
+  }
+  
+  circuit() {
+    return 4 * this.a;
+  }
+}
+
+const square = new Square(4.5);
+console.log(square.field());
+console.log(square.circuit());
+
+
+
+
+
+
+class Circle {
+  constructor(r) {
+    this.r = r;
+  }
+  
+  field() {
+    return Math.PI * Math.pow(this.r,2);
+  }
+  
+  circuit(){
+    return 2 * Math.PI * this.r;
+  }
+}
+
+const circle = new Circle(7);
+console.log(circle.field());
+console.log(circle.circuit());
+
