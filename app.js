@@ -50,14 +50,14 @@ class Circle {
 }
 
 
-let trojkat = new Triangle(3,5,6,8);
-console.log(trojkat.field());
-console.log(trojkat.circuit());
+let trinagle = new Triangle(3,5,6,8);
+console.log(trinagle.field());
+console.log(trinagle.circuit());
 
-let kwadrat = new Square(4);
-console.log(kwadrat.field());
-console.log(kwadrat.circuit());
+let square = new Square(4);
+console.log(square.field());
+console.log(square.circuit());
 
-let kolo = new Circle(4.23);
-console.log(kolo.field());
-console.log(kolo.circuit());
+let circle = new Circle(4.23);
+console.log(circle.field());
+console.log(circle.circuit());
